@@ -1,0 +1,90 @@
+@import "lib/vars"
+@import "lib/reboot"
+@import "lib/type"
+
+h1
+    text-align: center
+    top: 50px
+
+#caja
+    background: #a1e8ee
+    border-radius: 30px
+    padding: 30px
+    height: 500px
+    width: auto
+    display: block
+    margin: 0 auto
+    transition: .3s ease all
+    
+    @media screen and ( max-width:800px  )
+        height: 300px
+        
+    
+.cajaGrande
+    position: relative
+.control1
+    display: block
+    position: absolute
+    top: 50%
+    margin-left: 450px
+    cursor: pointer
+    @media screen and ( max-width:800px  )
+     margin-left: 30px   
+.control2
+    position: absolute
+    top: 50%
+    margin-left: 970px
+    cursor: pointer
+    @media screen and ( max-width:800px  )
+     margin-left: 350px
+.controlimg
+    width: 60px
+    @media screen and ( max-width:800px  )
+     width: 30px
+.mini
+    width: 70px
+    @media screen and ( max-width:800px  )
+      width: 100px  
+.caja_mini
+    padding: 10px
+    background: #a1e8ee
+    border-radius: 30px
+    display: flex
+    justify-content: center
+    margin: 20px
+    @media screen and ( max-width:800px  )
+        flex-wrap: wrap
+
+//CAMBIO DE TEMAS
+.btn1, .btn2, .btn3
+    background:  #7ae5e5 
+    color:  #2b6666 
+    border: none
+    cursor: pointer
+.themes
+    margin-left: 700px
+    padding: 20px
+    @media screen and ( max-width:800px  )
+        margin-left: 150px
+
+
+.caja-descripcion
+    display: flex
+    justify-content: center
+    margin: 0 auto
+    width: 80px
+    height: 100px
+    background-color: #a1e8ee
+    border-radius: 5px
+    display: none
+.active
+    display: block
+
+.btn-descrip
+    border: none
+    border-radius:  5px
+    background-color: #a1e8ee
+    cursor: pointer
+    margin: 0 auto
+    display: flex
+    justify-content: center
